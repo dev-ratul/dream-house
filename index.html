@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream House</title>
+    <!-- fonnt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+    <!-- font-awsome -->
+    <script src="https://kit.fontawesome.com/2cc668a7a8.js" crossorigin="anonymous"></script>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              h: '#ffffff00',  // Transparent white
+              h1: '#ffffff'    // Solid white
+            }
+          }
+        }
+      }
+  </script>
+      
+      <!-- style -->
+       <style>
+        .manrope-font {
+          font-family: "Manrope", serif;
+        }
+       </style>
+</head>
+<body class="manrope-font">
+    <!-- header -->
+     <header class="bg-gradient-to-t from-h to-gray-100  ">
+        <div class="w-[85vw] mx-auto pt-[33px] lg:pt-[40px] xl:pt-[50px]">
+            <nav class="flex justify-between items-center">
+              <!-- 1st-ul -->
+                <div>
+                  <ul class="flex items-center gap-2">
+                    <li>
+                        <a class="" href=""><i class="fa-solid fa-arrow-right p-2 xl:p-2.5 rounded-[50%] bg-[#ABEF5F] -rotate-[40deg]"></i></a>
+                    </li>
+                    <li>
+                        <a class="text-[28px] xl:text-[32px] font-extrabold" href="">Rinterio</a>
+                    </li>
+                </ul>
+                </div>
+                <!-- 2nd-ul -->
+                 <div class="hidden xl:block">
+                  <ul class="flex gap-9 ">
+                    <li><a class="font-bold text-[#494949]" href="">Home</a></li>
+                    <li><a class="text-[#737373]" href="">Services</a></li>
+                    <li><a class="text-[#737373]" href="">Portfolio</a></li>
+                    <li><a class="text-[#737373]" href="">Blogs</a></li>
+                    <li><a class="text-[#737373]" href="">Contact Us</a></li>
+                 </ul>
+                 </div>
+                 <!-- 3rd-ul -->
+                  <div class="hidden lg:block">
+                    <ul class="flex items-center gap-8">
+                      <li><a href=""><i class="fa-solid fa-magnifying-glass text-[20px] bg-white p-3 rounded-[50%]"></i></a></li>
+                      <li><a href=""><i class="fa-solid fa-cart-shopping text-[20px] bg-white p-3 rounded-[50%]"></i></a></li>
+                      <li class="py-2 px-4 bg-[#ABEF5F] rounded-full">
+                        <a class="text-[20px]" href="">Book Consult</a>
+                      <a  href=""><i class="fa-solid fa-arrow-right p-2 xl:p-2.5 rounded-[50%] bg-[#1C1C1C] text-white -rotate-[40deg]"></i></a>
+                      
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- 4th-hidden part -->
+                   <div class="lg:hidden">
+                    <ul>
+                      <a href=""><div class="w-5 h-[2px] bg-black"></div></a>
+                      <a href=""><div class="w-5 my-1 h-[2px] bg-black"></div></a>
+                      <a href=""><div class="w-5 h-[2px] bg-black"></div></a>
+                    </ul>
+                    
+                   </div>
+            </nav>
+        </div>
+     </header>
+
+</body>
+</html>
